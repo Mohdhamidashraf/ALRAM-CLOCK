@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ALRAM-CLOCK HAMID</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div id="alarm">
+        <h2> Alarm Clock </h2>
+        <!-- display current time -->
+        <div id="ctime-container">
+            <span id="ctime"></span>
+        </div>
+        <!-- setting alarm values -->
+        <form id="alarm-values">
+            <select id="HH"> 
+                <option value="hour" selected hidden>Hour </option>  
+            </select>
+    
+            <select id="MM"> 
+                <option value="Min" selected hidden>Min </option>
+              
+            </select>
+    
+            <select id="SS"> 
+                <option value="Sec" selected hidden>Sec </option>
+                
+            </select>
+    
+            <select id="AP"> 
+                <option value="duration" selected hidden>AM/PM </option>
+            </select>
+        </form>
+           <!-- form end -->
+           <!-- set alarm button -->
+        <input type="button" value="Set Alarm" id="set-alarm-button"> 
+        <!-- border  -->
+        <div class="line"></div>
+
+        <!-- values at which alarm is set -->
+        <h3>Alarm</h3>
+        <div id="alarm-list-container">
+            <ul id="list">
+                <!--alarm time   -->
+                <!-- delete button -->
+            </ul>
+        </div>
+    </div>
+    <script src='index.js'></script>    
+</body>
+</html>

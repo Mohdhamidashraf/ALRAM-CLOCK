@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+#alarm{
+    border: 1px solid rgb(20, 20, 20);
+    width:500px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+}
+#alarm h2{
+    text-decoration: underline;
+    color:rgb(0, 0, 0);
+}
+#ctime{
+    font-size: 1.5rem;
+}
+#set-alarm-button{
+    background-color: green;
+    color:antiquewhite;
+    font-size: large;
+    margin-bottom: 20px;
+}
+.line{
+    border:1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+#alarm-values{
+    margin-top: 20px;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+#alarm-values select{
+    margin: 0 10px 0 10px;
+}
+#list{
+    list-style: none;
+}
+#list li{
+    margin-top:10px;
+    display: flex;
+    justify-content: space-around;
+}
+#list li input{
+    background-color: rgb(0, 255, 229);
+}
